@@ -1,8 +1,6 @@
 # -UDEM--Ciberseguridad
 Parcial de Ciberseguridad
 
-Vídeo:
-
 Explicación: Incrusta una Carga (payload) dentro un archivo PDF existente. El archivo PDF resultante puede ser enviado al objetivo como parte de un ataque de ingeniería social.
 
 Sistema Operativo: Windows XP SP3 (Inglés/Español) / Windows Vista / Windows 7 (Inglés)
